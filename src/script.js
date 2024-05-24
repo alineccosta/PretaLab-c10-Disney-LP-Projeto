@@ -13,14 +13,18 @@ function jogoDeAdivinhacao() {
         alert("É isso mesmo, você adivinhou!")
     } else if (palpiteDigitado > numeroAleatorio) {
         tentativas++;
-        atualizarFeedback("O número é muito alto! Tente novamente.");
+        atualizarFeedback("Número muito alto! Chute um número menor!.");
     } else if (palpiteDigitado < numeroAleatorio) {
         tentativas++;
-        atualizarFeedback("O número é muito baixo! Tente novamente.");
+        atualizarFeedback("Número muito baixo! Chute um número maior!.");
     }
     
     const novaPontuacao = 100 - (tentativas * 10);
     atualizarPontuacao(novaPontuacao);
+
+    const palpitesFalhos= pegarPalpitesFalhos ();
+    const novosPalpitesFalhos = palpitesFalhos + " " + palpiteDigitado;
+    atualizarPalpitesFalhos(novosPalpitesFalhos);
 
 
 }
