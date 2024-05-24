@@ -6,8 +6,8 @@ Vamos iniciar um jogo de adivinhação projeto final do módulo de lógica de pr
 
 ## Funcionalidades do Adivinhaê
 ### ----- Momento guiado -----
-  1. [ ] Não aceitar palpites vazios.
-  2. [ ] Dar dicas a cada palpite errado.
+  1. [ x ] Não aceitar palpites vazios.
+  2. [ x ] Dar dicas a cada palpite errado.
   3. [ ] Atualizar a pontuação a cada palpite errado.
   4. [ ] Mostrar todos os palpites errados do jogo para evitar que repitam o erro.
   5. [ ] Possibilidade de poder reiniciar o jogo a qualquer momento.
@@ -84,11 +84,11 @@ Para começar a praticar, siga estes passos:
 
 Certifique-se de seguir cada passo cuidadosamente para garantir que suas contribuições sejam integradas ao repositório original.
 
-- [ ] **Fork do Repositório:**
+- [ x ] **Fork do Repositório:**
    - [ ] Acesse o repositório de [origem](https://github.com/lisandrascruz/PretaLab-c10-Disney-LP-Projeto).
    - [ ] No canto superior direito da página, clique no botão "Fork" para criar uma cópia do repositório para sua conta.
 
-- [ ] **Clone do Fork na Sua Máquina:**
+- [ x ] **Clone do Fork na Sua Máquina:**
    - [ ] No seu perfil do GitHub, acesse o fork do repositório que você acabou de criar.
    - [ ] Clique no botão verde "Code" e copie o URL fornecido.
    - [ ] Abra o terminal ou prompt de comando no diretório onde deseja clonar o repositório.
