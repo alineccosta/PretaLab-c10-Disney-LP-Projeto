@@ -67,7 +67,16 @@ function reiniciarJogo() {
         atualizarPontuacao(100);
         atualizarFeedback("")
         limparPalpiteDigitado();
-
-
+        jogoAtivo = true;
+        palpitesJaDigitados = [];
     }
+
+    else {
+        jogoAtivo = false;
+    }
+    
+        
+
+
+
 }
